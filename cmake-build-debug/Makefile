@@ -68,10 +68,10 @@ RM = /home/artyom/Downloads/clion-2020.2.4/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/artyom/CLionProjects/untitled
+CMAKE_SOURCE_DIR = /home/artyom/CLionProjects/OOP_labs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/artyom/CLionProjects/untitled/cmake-build-debug
+CMAKE_BINARY_DIR = /home/artyom/CLionProjects/OOP_labs/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -100,9 +100,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artyom/CLionProjects/untitled/cmake-build-debug/CMakeFiles /home/artyom/CLionProjects/untitled/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artyom/CLionProjects/OOP_labs/cmake-build-debug/CMakeFiles /home/artyom/CLionProjects/OOP_labs/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/artyom/CLionProjects/untitled/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/artyom/CLionProjects/OOP_labs/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -131,44 +131,44 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named untitled
+# Target rules for targets named lab1
 
 # Build rule for target.
-untitled: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 untitled
-.PHONY : untitled
+lab1: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 lab1
+.PHONY : lab1
 
 # fast build rule for target.
-untitled/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
-.PHONY : untitled/fast
+lab1/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/build
+.PHONY : lab1/fast
 
-main.o: main.cpp.o
+lab1.o: lab1.cpp.o
 
-.PHONY : main.o
+.PHONY : lab1.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.o
-.PHONY : main.cpp.o
+lab1.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab1.cpp.o
+.PHONY : lab1.cpp.o
 
-main.i: main.cpp.i
+lab1.i: lab1.cpp.i
 
-.PHONY : main.i
+.PHONY : lab1.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.i
-.PHONY : main.cpp.i
+lab1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab1.cpp.i
+.PHONY : lab1.cpp.i
 
-main.s: main.cpp.s
+lab1.s: lab1.cpp.s
 
-.PHONY : main.s
+.PHONY : lab1.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/main.cpp.s
-.PHONY : main.cpp.s
+lab1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/lab1.dir/build.make CMakeFiles/lab1.dir/lab1.cpp.s
+.PHONY : lab1.cpp.s
 
 # Help Target
 help:
@@ -178,10 +178,10 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... untitled"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... lab1"
+	@echo "... lab1.o"
+	@echo "... lab1.i"
+	@echo "... lab1.s"
 .PHONY : help
 
 
